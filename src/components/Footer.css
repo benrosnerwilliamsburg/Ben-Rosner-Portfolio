@@ -1,0 +1,8 @@
+.quote{
+    color: rgba(211, 206, 162, 0.468);
+    font-family: 'Oswald', monospace;
+    text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    margin: 10vh;
+    font-size: 3rem;
+    text-decoration: none;
+}

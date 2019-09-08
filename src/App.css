@@ -1,33 +1,24 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css?family=Red+Hat+Display&display=swap');
+body{
+ margin: 20px 20px;
+ background-image: linear-gradient(to right, hsla(120, 100%, 3%, 0), rgba(100, 100, 100, 0.3)), url("https://www.pixelstalk.net/wp-content/uploads/2016/06/HD-Technology-Picture.jpg");
+ background-color: rgba(120, 73, 77, 0.9);
+ background-size: cover;
+ height: 100vh; 
+ font-family: 'Red Hat Display', monospace;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navigation{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-evenly;
+  list-style: none;
+  font-family: 'Gayathri', monospace;
+  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+  font-size: 3rem;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+a{
+  color: inherit;
+  text-decoration: none;
 }
