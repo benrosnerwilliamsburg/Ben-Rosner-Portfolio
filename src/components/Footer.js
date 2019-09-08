@@ -5,7 +5,7 @@ const Footer = () => {
     return (
       <footer className="app-footer">   
         <div className = "quote-container">
-          <p className="quote">"Army of one now, don’t let down your guard" - Page McConnell, Phish</p>
+          <p className="quote">"Dripping in this strange design/None is yours and far less mine" - Anastasio/Marshall, Phish</p>
           </div>
       </footer>
     )

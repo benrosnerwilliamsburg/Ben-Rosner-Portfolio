@@ -1,8 +1,17 @@
+footer{
+    height: 100%;
+    z-index: 1;
+    border-top: 3px solid rgb(106, 101, 101);
+}
+
 .quote{
-    color: rgba(211, 206, 162, 0.468);
+    display: flex;
+    justify-content: flex-start;
+    color: #00ABE1;
     font-family: 'Oswald', monospace;
     text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
-    margin: 10vh;
-    font-size: 3rem;
+    font-size: 1.5rem;
     text-decoration: none;
+    margin-top: 300px;
 }
+
