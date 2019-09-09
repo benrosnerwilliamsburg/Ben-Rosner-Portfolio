@@ -1,9 +1,14 @@
 footer{
-    height: 100%;
+    height: 10vh;
     z-index: 1;
-    border-top: 3px solid rgb(106, 101, 101);
 }
 
+.quote-container{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    margin-top: 20vh;
+}
 .quote{
     display: flex;
     justify-content: flex-start;
@@ -12,6 +17,24 @@ footer{
     text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
     font-size: 1.5rem;
     text-decoration: none;
-    margin-top: 300px;
+}
+
+.linkedin-logo{
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    margin-right: 5vw;
+}
+
+.github-logo{
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
+
+.social-media-links{
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px;
 }
 
