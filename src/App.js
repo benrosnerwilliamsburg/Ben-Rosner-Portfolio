@@ -12,6 +12,9 @@ function App() {
       <Header/>
       <div className="nav-container">
           <nav className="navigation">
+          <div className="home-link">
+            <Link to="/">Home</Link>
+          </div>
             <div className='work-link'>
             <Link to="/work">Work</Link>
             </div>
@@ -19,6 +22,7 @@ function App() {
             <Link to="/about">About</Link>
             </div>
           </nav>
+            <Route exact path="/"></Route>
             <Route exact path="/work" render={() => (<Work/>)}></Route>
             <Route exact path="/about" render={() =>(<About/>)}></Route>
         </div>
