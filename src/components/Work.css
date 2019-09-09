@@ -1,0 +1,28 @@
+.image-container{
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 10vw;
+    align-items: center;
+    width: 200px;
+    height: 100px;
+    margin-left: -4vw;
+}
+
+.revivyl{
+    width: 300px;
+    height: 160px;
+}
+
+.class-act{
+    width: 300px;
+    height: 160px;
+}
+
+.better-living{
+    width: 300px;
+    height: 160px;
+}
+
+.work-container{
+    display: flex;
+}

@@ -18,9 +18,9 @@ function App() {
             <div className="about-link">
             <Link to="/about">About</Link>
             </div>
+          </nav>
             <Route exact path="/work" render={() => (<Work/>)}></Route>
             <Route exact path="/about" render={() =>(<About/>)}></Route>
-          </nav>
         </div>
        <Footer/>
     </div>

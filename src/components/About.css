@@ -10,14 +10,12 @@ img {
 }
 
 .image-container {
-    justify-content: center; 
-    margin-left: -10vw;
+    justify-content: flex-start;
+    margin-top: -18vh;
 }
 
 .brand-statement-container{
     justify-content: center;
-    margin-left: 10vw;
-    margin-top: 10vh;
 }
 
 .brand-statement{
