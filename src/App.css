@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Red+Hat+Display&display=swap');
 body{
  margin: 20px 20px;
- background-image: linear-gradient(to right, hsla(120, 100%, 3%, 0), rgba(100, 100, 100, 0.3)), url("https://www.pixelstalk.net/wp-content/uploads/2016/06/HD-Technology-Picture.jpg");
- background-color: rgba(10, 73, 77, 0.9);
+ background-image: linear-gradient(to right, rgba(86, 209, 247, 0.3), rgba(46, 240, 159, 0.3)), url("https://www.pixelstalk.net/wp-content/uploads/2016/06/HD-Technology-Picture.jpg");
+ background-color: rgba(120, 73, 77, 0.9);
  background-size: auto;
  background-repeat: no-repeat;
  background-attachment: fixed;
