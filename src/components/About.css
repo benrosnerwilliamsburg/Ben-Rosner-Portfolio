@@ -1,7 +1,7 @@
 .about-container{
     display: flex;
-    width: 100vw;
     height: 60vh;
+    margin-top: 10vh;
 }
 
 img {
@@ -11,11 +11,10 @@ img {
 
 .image-container {
     justify-content: flex-start;
-    margin-top: -18vh;
 }
-
 .brand-statement-container{
     justify-content: center;
+    margin-top: 10vh;
 }
 
 .brand-statement{

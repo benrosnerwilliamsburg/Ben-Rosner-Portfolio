@@ -16,6 +16,9 @@ const Work = () => {
             <div className="image-container">
                 <a href="https://github.com/c-kehler/Better-Living"><img src={BetterLiving} alt="Better Living App" className="better-living"/></a>
             </div>
+            <div className="image-container">
+                <a href="https://github.com/benrosnerwilliamsburg/ex_libris"><img src={ExLibris} alt="Ex Libris App" className="ex-libris"/></a>
+            </div>
         </div>
     )
   }

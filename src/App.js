@@ -4,7 +4,7 @@ import Header from './components/Header'
 import Footer from './components/Footer'
 import Work from './components/Work'
 import About from './components/About'
-import {Link, Route} from 'react-router-dom'
+import {Link, Route, Switch} from 'react-router-dom'
 
 function App() {
   return (
@@ -22,9 +22,11 @@ function App() {
             <Link to="/about">About</Link>
             </div>
           </nav>
+            <Switch>
             <Route exact path="/"></Route>
-            <Route exact path="/work" render={() => (<Work/>)}></Route>
-            <Route exact path="/about" render={() =>(<About/>)}></Route>
+            <Route exact path="/work" component={Work}></Route>
+            <Route exact path="/about" component={About}></Route>
+            </Switch>
         </div>
        <Footer/>
     </div>
