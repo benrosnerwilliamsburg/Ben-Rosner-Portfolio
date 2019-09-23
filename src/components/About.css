@@ -1,3 +1,5 @@
+
+
 .about-container{
     display: flex;
     height: 60vh;
@@ -9,7 +11,7 @@ img {
     width: 300px;
 }
 
-.image-container {
+.personal-image-container {
     justify-content: flex-start;
 }
 .brand-statement-container{
@@ -18,9 +20,10 @@ img {
 }
 
 .brand-statement{
-    color:#6C130C;
-    font-size: 24px;
-    font-family: 'Gayathri', monospace;
+    color:#6B1312;
+    font-size: 28px;
+    margin-top: -5vh;
+    font-family: 'Red Hat Display', monospace;
     text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
     font-weight: bolder;  
 }

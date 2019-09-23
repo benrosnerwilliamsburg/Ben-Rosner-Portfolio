@@ -5,7 +5,7 @@ import Photo from '../assets/ben_photo.jpg';
 const About = () => {
     return (
         <div className = "about-container">
-            <div className="image-container">
+            <div className="personal-image-container">
                 <img src={Photo} alt="Ben Rosner - Professional Web Developer"></img>
             </div>
             <div className="brand-statement-container">
