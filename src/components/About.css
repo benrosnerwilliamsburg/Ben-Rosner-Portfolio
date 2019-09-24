@@ -4,7 +4,7 @@
     margin-top: 10vh;
 }
 
-img {
+img{
     height: 300px;
     width: 300px;
 }
@@ -14,7 +14,7 @@ img {
 }
 .brand-statement-container{
     justify-content: center;
-    margin-top: 10vh;
+    margin-top: 4vh;
     margin-left: 2vw;
 }
 

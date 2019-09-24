@@ -8,24 +8,25 @@
 
 .project{
     height: 300px;
-    width: 150px;
+    width: 160px;
 }
 
 .work-container{
     display: flex;
-    flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
 }
 
 .summary-container{
     margin-top: -5vh;
+    justify-content: center;
+    width: 500px;
 }
 .summary{
     color:rgba(162, 22, 22, 0.886);
     font-size: 28px;
     font-family: 'Red Hat Display', monospace;
     text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
-    font-weight: bolder;  
+    font-weight: bolder; 
 }
 
