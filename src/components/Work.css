@@ -15,6 +15,7 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    max-width: 1300px;
 }
 
 .summary-container{
