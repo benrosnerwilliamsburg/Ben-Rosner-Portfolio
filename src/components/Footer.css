@@ -30,6 +30,13 @@ footer{
     height: 50px;
     width: 50px;
     cursor: pointer;
+    margin-right: 5vw;
+}
+
+.resume-logo{
+    height: 50px;
+    width: 60px;
+    cursor: pointer;
 }
 
 .social-media-links{
