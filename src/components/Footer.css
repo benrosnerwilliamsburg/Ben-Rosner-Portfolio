@@ -1,0 +1,47 @@
+footer{
+    height: 10vh;
+    z-index: 1;
+}
+
+.quote-container{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    margin-top: 20vh;
+}
+.quote{
+    display: flex;
+    justify-content: flex-start;
+    color: #FF5757;
+    font-family: 'Oswald', monospace;
+    text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.linkedin-logo{
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    margin-right: 5vw;
+}
+
+.github-logo{
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    margin-right: 5vw;
+}
+
+.resume-logo{
+    height: 50px;
+    width: 60px;
+    cursor: pointer;
+}
+
+.social-media-links{
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px;
+}
+

@@ -1,0 +1,28 @@
+.about-container{
+    display: flex;
+    height: 60vh;
+    margin-top: 10vh;
+}
+
+img {
+    height: 300px;
+    width: 300px;
+}
+
+.personal-image-container {
+    justify-content: flex-start;
+}
+.brand-statement-container{
+    justify-content: center;
+    margin-top: -3vh;
+    margin-left: 2vw;
+}
+
+.brand-statement{
+    color:#FF5757;
+    font-size: 24px;
+    font-family: 'Gayathri', monospace;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    font-weight: bolder;  
+}
+
