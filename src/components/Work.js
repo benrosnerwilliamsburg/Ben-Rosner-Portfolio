@@ -9,6 +9,7 @@ const Work = () => {
     return (
         <div className = "work-container">
             <div className="image-container">
+              <a href="https://go-go-giphy.surge.sh/"><img src={GoGoGiphy} alt="Go Go Giphy App" className="project"/></a>
             </div>
             <div className="summary-container">
               <h4 className="summary">Created a GIF search app using the Giphy.com API and React.</h4>
