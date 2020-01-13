@@ -13,7 +13,7 @@ const Footer = () => {
          <div className="social-media-links">
         <a href="https://www.linkedin.com/in/benrosner/"><img class="linkedin-logo" src={LinkedInLogo} alt="LinkedIn Logo"/></a>
         <a href="https://github.com/benrosnerwilliamsburg/"><img class="github-logo" src={GitHubLogo} alt="GitHub Logo"/></a>
-        <a href="https://drive.google.com/file/d/1lpltEDNhNYTOHZZIz0LxNr5TJhMLMsm_/view?usp=sharing"><img class="resume-logo" src={ResumeLogo} alt="resume"/></a>
+        <a href="https://bit.ly/2NkKvCe"><img class="resume-logo" src={ResumeLogo} alt="resume"/></a>
         </div>
       </footer>
     )
