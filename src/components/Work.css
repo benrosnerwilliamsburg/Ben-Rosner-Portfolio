@@ -14,17 +14,18 @@
 .work-container{
     display: flex;
     justify-content: center;
+    margin: 0 auto;
     max-width: 1300px;
 }
 
 .summary-container{
-    margin-top: -5vh;
+    margin-top: 5px;
     justify-content: center;
     width: 800px;
 }
 .summary{
     color:#FF5757;
-    font-size: 28px;
+    font-size: 20px;
     font-family: 'Red Hat Display', monospace;
     text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
     font-weight: bolder; 
