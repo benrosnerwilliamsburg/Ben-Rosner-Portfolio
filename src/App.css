@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Red+Hat+Display&display=swap');
 body{
  margin: 20px 20px;
- background-color: white;
+ background-color: #012140;
  background-size: auto;
  background-repeat: no-repeat;
  background-attachment: fixed;
- height: 60vh;
+ height: 100vh;
  font-family: 'Red Hat Display', monospace;
 }
 
@@ -19,7 +19,7 @@ nav{
   cursor: pointer;
   padding:20px 0;
 	transition:all 0.5s ease-in-out;
-	background: white;
+	background: #012140;
 	z-index:1;
 }
 

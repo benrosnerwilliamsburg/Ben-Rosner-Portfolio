@@ -2,16 +2,22 @@
 @import url('https://fonts.googleapis.com/css?family=Gayathri&display=swap');
 .title {
     font-weight: bold;
-    color: #FF5757;
+    color: #ABBAC4;
     font-family: 'Oswald', sans-serif;
     text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
     font-size: 4rem;
     text-decoration: none;
 }
 
+a {
+	font-weight:bold;
+	color:#ABBAC4;
+}
+
+
 .sub-heading{
-    color: #FF5757;
-    font-family: 'Gayathri', monospace;
+    color: #ABBAC4;
+    font-family: 'Oswald';
     text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
     margin: 15vh;
     font-size: 3rem;
@@ -28,4 +34,6 @@
 .sub-heading-container{
     display: flex;
     justify-content: center;
-    margin-top: -15;
+	margin-top: -15vh;
+}
+	
