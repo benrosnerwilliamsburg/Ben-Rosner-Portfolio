@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Red+Hat+Display&display=swap');
 body{
  margin: 20px 20px;
- background-image: linear-gradient(to right, rgba(86, 209, 247, 0.3), rgba(46, 240, 159, 0.3)), url("https://www.pixelstalk.net/wp-content/uploads/2016/06/HD-Technology-Picture.jpg");
- background-color: rgba(120, 73, 77, 0.9);
+ background-color: white;
  background-size: auto;
  background-repeat: no-repeat;
  background-attachment: fixed;
@@ -18,6 +17,10 @@ nav{
   text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
   font-size: 3rem;
   cursor: pointer;
+  padding:20px 0;
+	transition:all 0.5s ease-in-out;
+	background: white;
+	z-index:1;
 }
 
 a{

@@ -1,5 +1,5 @@
 import React from 'react'
-import './Footer.css'
+import './Footer.scss'
 import LinkedInLogo from "../assets/LinkedIn_logo_initials.png"
 import GitHubLogo from "../assets/GitHub-Mark.png"
 import ResumeLogo from '../assets/Resume-Logo.png'

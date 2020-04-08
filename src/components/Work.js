@@ -1,5 +1,5 @@
 import React from 'react';
-import './Work.css';
+import './Work.scss';
 import GoGoGiphy from '../assets/go_go_giphy.png'
 import Revivyl from '../assets/revivyl.png'
 import BetterLiving from '../assets/better_living.png'
