@@ -5,9 +5,6 @@ import Photo from '../assets/ben_photo.jpg';
 const About = () => {
     return (
         <div className = "about-container">
-            <div className="personal-image-container">
-                <img src={Photo} alt="Ben Rosner - Professional Web Developer" className="personal-photo"></img>
-            </div>
             <div className="brand-statement-container">
             <p className="brand-statement">Resourceful and motivated individual targeting 
                 opportunities in software engineering. Well organized 
