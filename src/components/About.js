@@ -1,6 +1,5 @@
 import React from 'react';
 import './About.scss';
-import Photo from '../assets/ben_photo.jpg';
 
 const About = () => {
     return (
