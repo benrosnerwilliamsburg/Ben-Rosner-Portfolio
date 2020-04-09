@@ -12,10 +12,11 @@
 .quote{
     display: flex;
     justify-content: flex-start;
+    align-items: flex-end;
     color: #ABBAC4;
     font-family: 'Oswald', monospace;
     text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
-    font-size: 1.5rem;
+    font-size: 1.0rem;
     text-decoration: none;
 }
 
@@ -39,6 +40,7 @@
 .social-media-links{
     display: flex;
     justify-content: flex-end;
-	padding: 5px;
-	width: 300px;
+    align-items: flex-end;
+    margin-left: 500px;
+	width: 200px;
 }
