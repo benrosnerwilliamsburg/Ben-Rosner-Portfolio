@@ -12,7 +12,7 @@ const Work = () => {
               <a href="https://asailorslifeforme.org/"><img src={Sailors} alt="Sailors Website" className="project" width="713px" height="348px" /></a>
             </div>
             <div className="image-container">
-              <a href="https://github.com/benrosnerwilliamsburg/go-go-giphy"><img src={GoGoGiphy} alt="Go Go Giphy App" className="project"/></a>
+              <a href="https://go-go-giphy.surge.sh/"><img src={GoGoGiphy} alt="Go Go Giphy App" className="project"/></a>
             </div>
             <div className="image-container">
                 <a href="https://github.com/c-kehler/Better-Living"><img src={BetterLiving} alt="Better Living App" className="project"/></a>
