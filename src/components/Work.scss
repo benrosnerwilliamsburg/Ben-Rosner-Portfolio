@@ -1,27 +1,12 @@
-.image-container{
-    justify-content: space-evenly;
+.work-container{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
     padding: 10px;
 }
 
-
-.work-container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: 0 auto;
-    align-items: center;
+img {
+    height: 300px;
+    width: 300px;
 }
-
-.summary-container{
-    margin-top: 5px;
-    justify-content: center;
-    width: 800px;
-}
-.summary{
-    color:#ABBAC4;
-    font-size: 20px;
-    font-family: 'Red Hat Display', monospace;
-    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
-    font-weight: bolder; 
-}
-
