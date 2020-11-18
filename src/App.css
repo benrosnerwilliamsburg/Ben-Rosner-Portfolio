@@ -1,29 +1,28 @@
 @import url('https://fonts.googleapis.com/css?family=Red+Hat+Display&display=swap');
 body{
- margin: 20px 20px;
- background-color: #012140;
+ background-color: #FE5F55;
  background-size: auto;
  background-repeat: no-repeat;
  background-attachment: fixed;
  height: 100vh;
- font-family: 'Red Hat Display', monospace;
 }
 
 nav{
   display: flex;
   justify-content: space-evenly;
-  list-style: none;
+  margin: 50px;
   font-family: 'Gayathri', monospace;
   text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
   font-size: 3rem;
   cursor: pointer;
-  padding:20px 0;
 	transition:all 0.5s ease-in-out;
-	background: #012140;
-	z-index:1;
+  background: #FE5F55;
 }
 
 a{
   color: inherit;
   text-decoration: none;
+}
+a:hover {
+  color: yellow;
 }

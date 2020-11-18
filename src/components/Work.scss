@@ -2,11 +2,23 @@
     display: flex;
     margin: 0 auto;
     justify-content: center;
-    align-items: center;
-    padding: 10px;
 }
 
 img {
-    height: 300px;
-    width: 300px;
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+}
+
+img:hover {
+    border: 10px solid black;
+    cursor: pointer;
+}
+
+p {
+    color:#F0B67F;
+    font-size: 24px;
+    font-family: 'Gayathri', monospace;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    font-weight: bolder;  
 }

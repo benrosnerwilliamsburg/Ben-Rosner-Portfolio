@@ -2,38 +2,36 @@
 @import url('https://fonts.googleapis.com/css?family=Gayathri&display=swap');
 .title {
     font-weight: bold;
-    color: #ABBAC4;
+    color: #F0B67F;
     font-family: 'Oswald', sans-serif;
     text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
-    font-size: 4rem;
+    font-size: 4em;
     text-decoration: none;
 }
 
 a {
 	font-weight:bold;
-	color:#ABBAC4;
+	color:#F0B67F;
 }
 
 
 .sub-heading{
-    color: #ABBAC4;
+    color:#F0B67F;
     font-family: 'Oswald';
     text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
-    margin: 15vh;
-    font-size: 3rem;
+    font-size: 3em;
     text-decoration: none;
+    margin: 0 auto;
 }
 
 .title-container{
     display: flex;
     justify-content: center;
-    margin-top: -10vh;
+    background-color: #FE5F55;
     
 }
 
 .sub-heading-container{
     display: flex;
     justify-content: center;
-	margin-top: -15vh;
 }
-	
