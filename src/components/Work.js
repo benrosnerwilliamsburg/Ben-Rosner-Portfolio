@@ -2,6 +2,7 @@ import React from 'react';
 import './Work.scss';
 import GoGoGiphy from '../assets/go_go_giphy.png'
 import Sailors from '../assets/sailors.png'
+import ToDoList from '../assets/to_do_list.png'
 
 const Work = () => {
     return (
@@ -17,6 +18,12 @@ const Work = () => {
             </div>
             <div className='desc'>
               <p>Created a GIF search app using the Giphy.com RESTful API and JavaScript with React.</p>
+          </div> 
+          <div className="image-container">
+              <a href="https://benrosnertodolist.netlify.app/"><img src={ToDoList} alt="To Do List App" className="project"/></a>
+            </div>
+            <div className='desc'>
+              <p>Created a To Do List app using HTML, CSS and JavaScript.</p>
           </div> 
         </div>
     )
