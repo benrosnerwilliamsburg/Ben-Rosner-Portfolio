@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "normalize": "^0.3.1",
+    "webflow": "^0.2.2"
+  }
+}
